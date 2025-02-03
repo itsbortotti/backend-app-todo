@@ -13,11 +13,12 @@ Este projeto é o backend da aplicação Todo App, desenvolvido em Node.js com N
 ### **Instalação**
 
 1. Clone o repositório:
+
    ```bash
    git clone <URL_DO_REPOSITORIO>
    cd backend
 
-2.	Instale as dependências:
+3.	Instale as dependências:
   npm install
 
 --------------------------------------------------------------------------------------------------------
@@ -42,12 +43,12 @@ http://localhost:4000/api-docs
 ### **Docker**
 
 Build e Execução
-	1.  Certifique-se de que o Docker esteja em execução.
+1.  Certifique-se de que o Docker esteja em execução.
 
-	2.	Na raiz do projeto, execute:
-    docker-compose up --build
+2.  Na raiz do projeto, execute:
+   docker-compose up --build
 
-  3.  Parar os Containers 
+3.  Parar os Containers 
     docker-compose down --volumes --remove-orphans
 
 --------------------------------------------------------------------------------------------------------
